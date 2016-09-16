@@ -1,0 +1,2 @@
+﻿## 1. Server 2. UserName 3. Password 4. DbName //separate by TAB
+localhost
