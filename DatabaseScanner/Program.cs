@@ -111,7 +111,7 @@ namespace DatabaseScanner
             List<string> list = new List<string>();
             List<string> exclusionList = new List<string> { "master", "tempdb", "model", "msdb"};
 
-            // Open connection to the database Yo!
+            // Open connection to the database Yo!5
             ConnectionString cnStr = new ConnectionString();
             cnStr.server = server;
             using (SqlConnection sqlConnection = connectToDb(cnStr))
